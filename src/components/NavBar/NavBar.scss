@@ -3,34 +3,35 @@
   justify-content: space-between;
   width: 100%;
   padding: 15px 10%;
-  border-bottom: 1px solid #eaf0f3;
+  //border-bottom: 1px solid #6F2232;
+  background-color: #1A1A1C;
+  color: white;
 }
 
 .name {
   margin: 0;
 }
 
-
-.nav-items-container{
+.nav-items-container {
   display: flex;
   justify-content: flex-end;
 }
 
-
 .navbar-item {
+  font-family: 'Shadows Into Light', serif;
   margin-right: 40px;
-  color: black;
+  color: white;
   @media (max-width: 700px) {
     margin-right: 20px;
   }
   &:hover {
-    color: #60BEC2;
-    text-decoration: underline;
+    color: #CC8E03;
+    text-decoration: none;
   }
 }
 
 .active {
-  color: #60BEC2;
+  color: #CC8E03;
 }
 
 .tool-box {

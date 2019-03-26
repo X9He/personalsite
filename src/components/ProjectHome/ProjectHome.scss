@@ -1,4 +1,18 @@
 .project-root {
-  width: 90%;
-  margin-left: 10%;
+  position: relative;
+  width: 100%;
+  background-image: url("../../assets/img/project-back.jpg");
+  background-size: 1500px 800px;
+}
+
+.proj-top-title{
+  font-size: 55px;
+  padding-bottom: 150px;
+  font-family: 'Shadows Into Light', serif;
+  color: whitesmoke;
+  padding-top: 150px;
+}
+
+.project-background{
+  background-color: #6F2232;
 }

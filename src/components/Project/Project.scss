@@ -1,5 +1,27 @@
 .project-container {
+  width: 100%;
+  padding: 40px 10%;
+  background-color: #4E4E50;
   position: relative;
   display: flex;
-  width: 100%;
+}
+
+.project-left {
+  color: whitesmoke;
+  width: 40%;
+}
+
+.project-right {
+  color: whitesmoke;
+  width: 60%;
+}
+
+.proj-title {
+  font-family: 'Shadows Into Light', serif;
+  font-size: 40px;
+}
+
+.proj-description{
+  font-family: 'Shadows Into Light', serif;
+  font-size: 20px;
 }
