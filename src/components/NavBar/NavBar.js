@@ -1,16 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import resume from '../../assets/pdf/Evan_s_Resume.pdf'
 import './NavBar.scss';
 
 
 const navbar = ()  => {
     return (
         <div className="navbarEvan">
-            <Link className="navbar-item" to="/home">Home</Link>
-            <Link className="navbar-item" to="/projects">Side Projects</Link>
-            <Link className="navbar-item" to="/resume">Resume</Link>
-            <Link className="navbar-item" to="/school">School</Link>
-            <Link className="navbar-item" to="/blog">Blog</Link>
+            <p className="name">Evan He</p>
+            <div className="nav-items-container">
+                <NavLink className="navbar-item" activeClassName="active" to="/home">Home</NavLink>
+                <NavLink className="navbar-item" activeClassName="active" to="/projects">Side Projects</NavLink>
+                <NavLink className="navbar-item" activeClassName="active" target="_blank" to={resume}>Resume</NavLink>
+                <NavLink className="navbar-item" activeClassName="active" to="/school">School</NavLink>
+                <NavLink className="navbar-item" activeClassName="active" to="/blog">Blog</NavLink>
+            </div>
         </div>
     )
 };
