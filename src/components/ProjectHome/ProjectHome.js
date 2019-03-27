@@ -10,14 +10,13 @@ class projectHome extends Component {
             <div className='project-background'>
                 <div className='project-root'>
                     <p className="proj-top-title"> My Side Projects </p>
-                    <Project projColor="#4E4E50" title="Java Doodle Board" description="This paint application achieves painting by tracking mouse down and drag movements on the canvas. It was done in intellij.
-                    Key features:
-- slider has ticks to indicate the end of each line (continus mouse drag movement until mouse is released)
-- if you slide to anywhere on the slider and continue drawing, all lines after the tick you're at is destroyed and canvas will only add new lines you are drawing
-- you can save and load painting projects (no extension restriction)
-- you can play your drawing from any point on the tick"/>
-                    <Project projColor="#6F2232" title="Road Trip Planner" description="You input the locations, starting point and how much time you want to spend at each place,
+                    <Project projColor="#7E685A" title="Road Trip Planner (React with Rails and PostgreSQL/GraphQL)" description="You input the locations, starting point and how much time you want to spend at each place,
                      this app generates the most optimal path for you and all in a nice schedule."/>
+                    <Project projColor="#6F2232" title="Doodle Board (Java)" description="Created a java program using Swing for drawing shapes and lines, where drawings are recorded with in real time and can be played back, skipped
+forward and back, and randomly sought."/>
+                    <Project projColor="#7E685A" title="Web Crawler (Python)" description="Created a web cralwer using python, which returns all embedded urls in
+a web domain specified by a user."/>
+                    <Project projColor="#6F2232" title="Dungeon Crawler (C++)" description="Created a bash terminal based dungeon crawling rogue like game with two other teammates, gained valuable OOP and design pattern experience."/>
                 </div>
             </div>
         );
