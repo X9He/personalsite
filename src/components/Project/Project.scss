@@ -1,9 +1,12 @@
 .project-container {
-  width: 100%;
-  padding: 60px 10%;
+  width: 30%;
   background-color: #4E4E50;
   position: relative;
   display: flex;
+  @media (max-width: 800px) {
+    width: 90%;
+    margin: 20px 0;
+  }
 }
 
 .project-left {
@@ -12,8 +15,9 @@
 }
 
 .project-right {
+  padding: 20px;
   color: whitesmoke;
-  width: 60%;
+  width: 100%;
 }
 
 .proj-title {
